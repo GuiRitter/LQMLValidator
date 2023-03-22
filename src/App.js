@@ -65,6 +65,7 @@ function App(props) {
 						}${associationNotPaired.join('\n')}`
 					: 'no associations defined once or more than twice'
 			}`;
+			input.value = '';
 	}} type='button' value='Validate' /><p className='by'>by Guilherme Alan Ritter</p></>;
 }
 
