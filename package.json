@@ -1,6 +1,6 @@
 {
   "name": "lqml_validator",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": true,
   "homepage": "lqml_validator/",
   "dependencies": {
@@ -13,6 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "i": "npx update-browserslist-db@latest && npm i",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
